@@ -1,26 +1,26 @@
 class Wsfold < Formula
   desc "Workspace composition CLI for trusted multi-repo development"
   homepage "https://github.com/wsfold/wsfold"
-  version "0.1.0"
+  version "0.1.1"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/wsfold/wsfold/releases/download/v0.1.0/wsfold_Darwin_arm64.tar.gz"
-      sha256 "34297509f578ec4fb3d6ed932139274e00bd7eaac9b55d938031c89b69f0c176"
+      url "https://github.com/wsfold/wsfold/releases/download/v0.1.1/wsfold_Darwin_arm64.tar.gz"
+      sha256 "f04f6d5c398f16354b960e45913904b68d724101a830c82f50de9f25bd4c540a"
     else
-      url "https://github.com/wsfold/wsfold/releases/download/v0.1.0/wsfold_Darwin_x86_64.tar.gz"
-      sha256 "ff29fe9ecfe0cd61a19c646f49bb160f5c0cae56c7f318ebf1be4ac7721bb4b4"
+      url "https://github.com/wsfold/wsfold/releases/download/v0.1.1/wsfold_Darwin_x86_64.tar.gz"
+      sha256 "ae1175857181e1a912ae75ab732556af15342f5d3ec9a9250b8ac0ab7d93a684"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/wsfold/wsfold/releases/download/v0.1.0/wsfold_Linux_arm64.tar.gz"
-      sha256 "bf7fa53e758b16002ba5cb790d034525d7808037d7f6e36fd59a9603784ce726"
+      url "https://github.com/wsfold/wsfold/releases/download/v0.1.1/wsfold_Linux_arm64.tar.gz"
+      sha256 "a71c88dd557d27716df717d55dea6619dd90eb37d1e3c880eeefc88c0b7c9248"
     else
-      url "https://github.com/wsfold/wsfold/releases/download/v0.1.0/wsfold_Linux_x86_64.tar.gz"
-      sha256 "aa72c1fe880b0491a30f67f59c2c42f920a2e71409eb63f855d161a748f0a8d5"
+      url "https://github.com/wsfold/wsfold/releases/download/v0.1.1/wsfold_Linux_x86_64.tar.gz"
+      sha256 "681ebf0c7e085a710033343ef48058cad0756c27d4be0d8a12ce178618be0b81"
     end
   end
 
