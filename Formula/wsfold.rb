@@ -7,20 +7,20 @@ class Wsfold < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/wsfold/wsfold/releases/download/v0.4.1/wsfold_Darwin_arm64.tar.gz"
-      sha256 "7aba027505a8ea5a14a3c3db5c3b5580e44a9198779d4dda5e61d6f51c3d569e"
+      sha256 "de343f951788ce2e6b0031af9130192f973b7ca69e497acecd447ae45fb8c561"
     else
       url "https://github.com/wsfold/wsfold/releases/download/v0.4.1/wsfold_Darwin_x86_64.tar.gz"
-      sha256 "ee3e47855e5cc1b32e495504bf9487550ec68da206ede022ea57d5959656275e"
+      sha256 "ace22efc58124bd48ac89a43804cbcedb7e41f2dacc3223794d08adee344ecd9"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/wsfold/wsfold/releases/download/v0.4.1/wsfold_Linux_arm64.tar.gz"
-      sha256 "67e3f1c8ed56ff6773d08f22af8e4263fbf87ee270fe95bccf9386f277981892"
+      sha256 "8076994e34cb6c859455f1d0fe4bfc2542b211031c49d4e0982db2a16a6abf50"
     else
       url "https://github.com/wsfold/wsfold/releases/download/v0.4.1/wsfold_Linux_x86_64.tar.gz"
-      sha256 "663a3d1d58f6c2cf828b0f34fcb01ea40a950e23818716de96960d323225090a"
+      sha256 "15e2b7483b0ef55aa706f1dfa2ac3c1701f0f06cb7dac8234c7bef41781077c6"
     end
   end
 
