@@ -5,13 +5,13 @@ Homebrew tap for installing `wsfold` from prebuilt GitHub release binaries.
 ## Install
 
 ```bash
-brew tap wsfold/wsfold
+brew tap atilarum/wsfold
 brew install wsfold
 ```
 
 This tap expects release artifacts to be published in:
 
-- `https://github.com/wsfold/wsfold/releases`
+- `https://github.com/atilarum/wsfold/releases`
 
 ## Repository Layout
 
@@ -22,7 +22,7 @@ Formula/
 
 ## Release Update Flow
 
-After publishing a new release in `wsfold/wsfold`:
+After publishing a new release in `atilarum/wsfold`:
 
 1. Update `version` in `Formula/wsfold.rb`
 2. Update the 4 platform URLs if naming changed
