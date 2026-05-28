@@ -1,4 +1,4 @@
-# homebrew-wsfold
+# Homebrew for WSFold
 
 Homebrew tap for installing `wsfold` from prebuilt GitHub release binaries.
 
